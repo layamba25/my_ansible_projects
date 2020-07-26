@@ -1,5 +1,5 @@
 ---
-- hosts: Pi
+- hosts: all
   tasks:
     - name: Check Status of Pi-Hole
       ping:

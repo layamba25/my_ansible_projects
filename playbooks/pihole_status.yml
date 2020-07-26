@@ -1,5 +1,5 @@
 ---
-- hosts: "PiHole DNS SinkHole"
+- hosts: 10.0.0.100
   tasks:
     - name: Check Status of Pi-Hole
       ping:

@@ -1,0 +1,7 @@
+# # Example from an Ansible Playbook
+- ping:
+
+# # Induce an exception to see what happens
+- ping:
+    data: crash
+

@@ -5,8 +5,7 @@
       ping:
     - name: Check Satus of Pi-Hole Service
       service:
-        name: pihole
+        name: pihole-FTL
         state: started
-        command: pihole status
     - name: enable selinux
       command: /sbin/setenforce 1

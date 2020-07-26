@@ -1,6 +1,6 @@
--name: Ping
- host: all
- task:
-   -name: I want to ping
-   debug:
-     msg: "I want to Ping"
+- name: Hello World Sample
+    hosts: all
+    tasks:
+      - name: Hello Message
+        debug:
+          msg: "Hello World!"

@@ -1,7 +1,6 @@
-# # Example from an Ansible Playbook
-- ping:
-
-# # Induce an exception to see what happens
-- ping:
-    data: crash
-
+-name: Ping
+ host: all
+ task:
+   -name: I want to ping
+   debug:
+     msg: "I want to Ping"

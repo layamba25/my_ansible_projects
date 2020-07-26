@@ -3,3 +3,10 @@
   tasks:
     - name: Check Status of Pi-Hole
       ping:
+    - name: Check Satus of Pi-Hole Service
+      service:
+        name: pihole
+        state: started
+        command: pihole status
+    - name: enable selinux
+      command: /sbin/setenforce 1

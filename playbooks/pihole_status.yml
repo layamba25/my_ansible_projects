@@ -1,5 +1,5 @@
 ---
-- hosts: 10.0.0.100
+- hosts: PiHole
   tasks:
     - name: Check Status of Pi-Hole
       ping:

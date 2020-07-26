@@ -7,5 +7,3 @@
       service:
         name: pihole-FTL
         state: started
-    - name: enable selinux
-      command: /sbin/setenforce 1

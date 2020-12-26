@@ -1,0 +1,11 @@
+---
+-
+
+  hosts: cluster_master
+
+-
+  hosts: cluster_master
+  tags:
+    - splunk_cm 
+
+...

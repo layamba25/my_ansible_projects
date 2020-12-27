@@ -1,0 +1,6 @@
+---
+- name: Deploy Apps from Github to Indexers
+  git:
+    repo: git@github.com:layamba25/my_ansible_projects.git
+    dest: /tmp
+

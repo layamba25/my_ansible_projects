@@ -1,5 +1,6 @@
-[cluster_master]
-ixrh-splk-d-idxm01
+[clustermaster]
+ubuntu1
+ubuntu2
 
 [deployer]
 ixrh-splk-d-idxm01

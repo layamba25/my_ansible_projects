@@ -1,11 +1,10 @@
 ---
--
-
-  hosts: cluster_master
 
 -
   hosts: cluster_master
+  become: true
   tags:
     - splunk_cm 
-
+  roles:
+    - splunk_deployment_server
 ...
